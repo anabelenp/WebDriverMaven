@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Page Object Model">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="com.abruno.listeners.CustomListeners" />
+    </listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="com.abruno.testcases.LoginTest" />
+        </classes>
+    </test>
+    <!-- Test -->
+    <test name="Create Account Test">
+        <classes>
+            <class name="com.abruno.testcases.CreateAccountTest" />
+        </classes>
+    </test>
+    <!-- Test -->
+</suite>
+<!-- Suite -->
